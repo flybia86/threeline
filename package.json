@@ -1,0 +1,23 @@
+{
+  "name": "threeline-generator",
+  "version": "1.0.0",
+  "description": "삼행시 생성기 웹 앱",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "keywords": [
+    "threeline",
+    "claude",
+    "ai",
+    "korean"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
