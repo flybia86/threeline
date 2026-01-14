@@ -4,8 +4,8 @@
   "description": "삼행시 생성기 웹 앱",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "threeline",
